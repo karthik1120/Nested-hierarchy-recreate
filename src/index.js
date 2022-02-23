@@ -7,7 +7,7 @@ import createData from "./data";
 const data = createData();
 
 const Example = () => {
-  console.log("start");
+  console.log("start one");
   return (
     <div style={{ height: "100%" }}>
       <SpeedTree data={data} />{" "}
